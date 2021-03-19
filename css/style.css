@@ -1,0 +1,128 @@
+h1 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #8C6A85;
+}
+h1 a:hover{
+    color: #7B628A;
+}
+.coffee_btns{
+    list-style-type: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: #715988;
+}
+.coffee_btns li{
+    margin-top: 20px;
+}
+.coffee_btn{
+    color: #71596B;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #71596B;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.coffee_btn:hover{
+    border: 3px solid #71595C;
+}
+.coffee_btn i{
+    font-size: 36px;
+}
+.coffee_btn:hover i{
+    font-size: 46px;
+    color: #71595C;
+}
+#moneyField{
+    border: 4px solid #71595C;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-style: italic;
+    background-color: #FFFACD;
+}
+#moneyField:focus{
+    border: 4px solid #715941;
+    background-color: #FFFAA6;
+    
+}
+.coffee_bg{
+    background-image: url(../img/coffee_back2.jpg);
+    -webkit-background-size: 200%;
+    background-size: 15%;
+    
+}
+#display{
+    background: linear-gradient(to bottom,#E2FFF1,#A6BBB1);
+    height: 100px;
+    text-align: center;
+    padding-top: 8px;
+    border: 5px solid #2C2C2C;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 8px;
+}
+#display_balance i{
+    margin-right: 8px;
+}
+[src$='rub.jpg']{
+    z-index: 1;
+}
+[src$='rub.jpg'].accept{
+    filter:brightness(30%);
+}
+[src$='rub.png']{
+    cursor: pointer;
+}
+[src$='rub.png']:hover{
+    filter:brightness(130%);
+}
+#get_change_btn{
+    background-color: #766488;
+    color: #fff;
+    display: inline-block;
+    padding: 0.4em 0.8em;
+    cursor: pointer;
+    font-size: 1.2em;
+    text-decoration: none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    transition-duration:.3s;
+    transition-property:background-color;
+}
+#get_change_btn > i{
+    margin-right: 8px;
+}
+#get_change_btn:hover{
+    background-color: #684D82;
+}
+
+#change_box{
+    display: inline-block;
+    width: 90%;
+    height: 300px;
+    background-color: #B0957A;
+    border: 5px solid #D87E5B;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+#coffee_progress .progress-bar{
+    background-color: #88595F;
+}
+#block_screen{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
